@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
+  root 'root#index'
   resources :tags
-
   resources :notes
-
   resources :notebooks
 
   # The priority is based upon order of creation: first created -> highest priority.
